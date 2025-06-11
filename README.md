@@ -49,8 +49,8 @@ To set up the project, follow these steps:
    pip install -r requirements.txt
    ```
    
-   Note: We use Conda to install complex dependencies with binary components like OpenCV,
-   while using pip for the remaining Python-specific packages.
+   Note: Conda is used to install complex dependencies with binary components like OpenCV,
+   while pip is used for the remaining Python-specific packages.
 
 4. **Prepare your videos**:
 Place all video files for analysis in the `videos/` directory. **NB!** The default config currently accepts only .mp4 files.
