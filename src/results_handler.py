@@ -81,7 +81,7 @@ class ResultsHandler:
             final_results = coercion_results
         
         # Log final results
-        logging.info(f"Coercion detection results: {final_results}")
+        logging.info(f"Coercion detection results:\n{final_results}")
 
         # Save aggregated results
         results_path = os.path.join(self.output_dir, "results.csv")
