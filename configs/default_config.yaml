@@ -1,0 +1,6 @@
+YOLO_MODEL_PATH: "models/yolov8m.pt"
+CONFIDENCE_THRESHOLDS: [0.6]
+VIDEO_PATHS: "videos/*.mp4"
+LOG_LEVEL: "INFO"
+VISUALIZATION: true
+OUTPUT_DIR: "output"
