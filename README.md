@@ -8,14 +8,9 @@
 
 The following video [(Tujurikkuja, 2015)](https://www.youtube.com/watch?v=wtPFdOhNTSc) contains multiple persons. If a person wants to verify their identity and sends a video where there are multiple persons present, this tool will detect these persons, draw bounding boxes around them (this is visible in the tool output) and then classify the video as being coerced.
 
-**Frame from the video:**
-![Original Example](example_coercion.png)
+![Original Example](coercion_check_example.png)
 
-
-**The same frame after running coercion-check:**
-![Example with bounding boxes](example_coercion_with_boxes.png)
-
-This tool would classify the video as having been coerced.
+This tool would classify the video as the having been coerced.
 
 ## Project Structure
 ```
