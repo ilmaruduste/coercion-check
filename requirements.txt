@@ -1,0 +1,17 @@
+# ML frameworks
+tensorflow>=2.8.0
+ultralytics>=8.0.0  # For YOLOv8 and other Ultralytics models
+deep_sort_realtime>=0.4.0
+# or alternatively: torch>=1.10.0
+
+# Data handling
+pandas>=1.3.0
+scikit-learn>=1.0.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Jupyter Notebook support
+notebook>=6.4.0
+ipykernel>=6.0.0
