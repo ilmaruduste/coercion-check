@@ -8,23 +8,29 @@
 
 The following video [(Tujurikkuja, 2015)](https://www.youtube.com/watch?v=wtPFdOhNTSc) contains multiple persons. If a person wants to verify their identity and sends a video where there are multiple persons present, this tool will detect these persons, draw bounding boxes around them (this is visible in the tool output) and then classify the video as being coerced.
 
-![Original Example](coercion_check_example.png)
+![Original Example](resources/coercion_check_example.png)
 
 This tool would classify the video as the having been coerced.
 
 ## Project Structure
 ```
 coercion-check/
+├── configs/
+├── models/
+├── output/
+├── resources/
+│   ├── coercion_check_cm.png
+│   └── coercion_check_example.png
 ├── src/
 │   ├── __init__.py
-│   ├── predict.py
-│   ├── utils.py
-│   └── models/
-│       └── __init__.py
+│   ├── coercion_check_poc.ipynb
+│   ├── object_detector.py
+│   └── results_handler.py
+├── videos/
 ├── requirements.txt
 ├── README.md
 ├── report.md
-└── setup.py
+└── requirements.txt
 ```
 
 ## Installation Instructions
@@ -50,7 +56,7 @@ To set up the project, follow these steps:
    ```
    
    Note: Conda is used to install complex dependencies with binary components like OpenCV,
-   while pip is used for the remaining Python-specific packages.
+   while pip is used for the remaining Python-specific packages and for installing `torch`.
 
 4. **Prepare your videos**:
 Place all video files for analysis in the `videos/` directory. **NB!** The default config currently accepts only .mp4 files.

@@ -16,7 +16,7 @@ The PoC was tested in `src/coercion_check_poc.ipynb` and then a tool was built a
 ## Results
 The model was evaluated using the dataset and labels from Veriff (n = 17). The following metrics and confusion matrix were recorded:
 
-![Coercion Check confusion matrix](coercion_check_cm.png)
+![Coercion Check confusion matrix](resources/coercion_check_cm.png)
 
 - **Accuracy**: 71%
 - **Precision**: 62%
